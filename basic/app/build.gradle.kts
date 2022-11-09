@@ -42,7 +42,11 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
 
 //    testImplementation("org.codehaus.groovy:groovy-all:3.0.8")
-    testImplementation("org.spockframework.spock:spock-core:spock-2.3")
+//    testImplementation("org.spockframework.spock:spock-core:spock-2.3")
+    // https://mvnrepository.com/artifact/org.spockframework/spock-core
+    testImplementation("org.spockframework:spock-core:2.3-groovy-3.0")
+    testImplementation("org.codehaus.groovy:groovy-sql:3.0.13")
+    testImplementation("com.h2database:h2:2.1.214")
 }
 
 application {
